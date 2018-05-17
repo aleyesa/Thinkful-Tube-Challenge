@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+header, fieldset, nav {
+    border: none;
+    text-align: center;
+}
+
+

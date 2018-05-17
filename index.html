@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,8 +12,27 @@
     crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <main role="main">
+        <header role="banner">
+            <h1>Thinkful Tube</h1>
+        </header>
+
+        <nav role="navigation"></nav>
+
+        <form action="#" class="js-search-form">
+            <fieldset name="search-field">
+                <input type="text" name="search-text-field" class="js-query" placeholder="food, cars, music, etc..."/>
+                <input type="submit" value="Search"></input>
+            </fieldset>
+        </form>
+
+        <section role="region" class="js-search-results">
+            <!-- display thumbnail images of videos that match search -->
+        </section>
+
+    </main>
 </body>
 <script src="index.js"></script>
 </html>
+    
 
