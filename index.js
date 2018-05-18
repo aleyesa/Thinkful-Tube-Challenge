@@ -4,7 +4,7 @@ const YOUTUBE_SEARCH_URL = "https://www.googleapis.com/youtube/v3/search";
 function getVidSearchFromYtAPI(searchKeyword, callback){
   const query = {
       part: 'snippet',
-      key: 'AIzaSyCha6Js5fT0-LtLDsIesWVgbE3hrVv8eOQ',
+      key: '',
       q: searchKeyword
       };
   $.getJSON(YOUTUBE_SEARCH_URL, query, callback);
