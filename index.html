@@ -12,27 +12,21 @@
     crossorigin="anonymous"></script>
 </head>
 <body>
-    <main role="main">
+    <main role="main" aria-live="polite">
         <header role="banner">
             <h1>Thinkful Tube</h1>
         </header>
-
-        <nav role="navigation">
-        </nav>
-
         <form action="#" class="js-search-form">
             <fieldset name="search-field">
-                <input type="text" name="search-text-field" class="js-query" placeholder="food, cars, music, etc..."/>
+                <input type="text" name="search-text-field" class="js-query" placeholder="Type in a keyword to search for related videos" autofocus/>
                 <input type="submit" value="Search"></input>
             </fieldset>
         </form>
-
         <section role="region" class="js-search-results">
             <!-- display thumbnail images of videos that match search -->
         </section>
-
     </main>
 </body>
-<script src="index.js"></script>
+<script src="index.js"></script>    
 </html>
     

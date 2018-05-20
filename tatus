@@ -1,0 +1,79 @@
+[33mcommit f5c0fc6686066b22b52402ea1a75a0e923147cc1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: aleyesa <aaron.leyesa@gmail.com>
+Date:   Sat May 19 20:23:26 2018 -0700
+
+    added feature to show prev or next page of results
+
+[33mcommit 7d2f2da7bc930a9ee4758bc02e7723841a57129f[m
+Merge: a43c05e 20598bb
+Author: aleyesa <aaron.leyesa@gmail.com>
+Date:   Thu May 17 18:37:01 2018 -0700
+
+    Merge branch 'master' of https://github.com/aleyesa/Thinkful-Tube-Challenge
+
+[33mcommit 20598bb3e9b432040b7242f16a98f2837da4e3e8[m
+Author: Aaron Leyesa <aaron.leyesa@gmail.com>
+Date:   Thu May 17 18:33:32 2018 -0700
+
+    Update index.js
+
+[33mcommit a43c05e46964e6cd714001c633d7695afadb25ed[m
+Author: aleyesa <aaron.leyesa@gmail.com>
+Date:   Thu May 17 18:32:59 2018 -0700
+
+    updated key in index.js
+
+[33mcommit 7738183522ff5395087c41d69a1d55904e014609[m
+Author: Aaron Leyesa <aaron.leyesa@gmail.com>
+Date:   Thu May 17 17:14:42 2018 -0700
+
+    Update index.html
+
+[33mcommit 4c45923c2c42639820be14044f400a30db67a200[m
+Author: aleyesa <aaron.leyesa@gmail.com>
+Date:   Thu May 17 17:09:08 2018 -0700
+
+    added Doctype command
+
+[33mcommit 2c797b59d48a0ee8646f3f94b053ada31461bb21[m
+Author: Aaron Leyesa <aaron.leyesa@gmail.com>
+Date:   Thu May 17 17:04:32 2018 -0700
+
+    Create Webpage-Link
+
+[33mcommit 559a58ea17694158ccfc670b2e3f98db4c2a985f[m
+Merge: ebea1de 64dff75
+Author: aleyesa <aaron.leyesa@gmail.com>
+Date:   Thu May 17 16:44:06 2018 -0700
+
+    Merge branch 'feature/search-form'
+
+[33mcommit 64dff75f4d3797acabf260a77835514f57ca7a64[m[33m ([m[1;31morigin/feature/search-form[m[33m)[m
+Author: aleyesa <aaron.leyesa@gmail.com>
+Date:   Thu May 17 16:37:32 2018 -0700
+
+    updated index.css, index.html, index.js
+
+[33mcommit 1f060dd17539ee436b883f0a6bd7edb8caceaea9[m
+Author: aleyesa <aaron.leyesa@gmail.com>
+Date:   Tue May 15 17:38:16 2018 -0700
+
+    added template in index.html
+
+[33mcommit 4c406b910a3b87cd089d0e35d0b151bd0ba1b12c[m
+Author: aleyesa <aaron.leyesa@gmail.com>
+Date:   Tue May 15 17:24:34 2018 -0700
+
+    added index.html, index.css, index.js
+
+[33mcommit ebea1de3269015b204f5c4ba692c06f87b37cb59[m[33m ([m[1;32mdiff[m[33m)[m
+Author: aleyesa <aaron.leyesa@gmail.com>
+Date:   Tue May 15 17:06:59 2018 -0700
+
+    updated README.md
+
+[33mcommit 5ef8a1ded8cef43ba79a81e5b89d382fa1c12382[m
+Author: aleyesa <aaron.leyesa@gmail.com>
+Date:   Tue May 15 16:56:26 2018 -0700
+
+    added README.md

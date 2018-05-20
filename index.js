@@ -20,9 +20,9 @@ function getVidSearchFromYtAPI(searchKeyword, pgToken = '', callback){
 //links to video and channel.
 function renderResult(result) {
   return `
-  <h2>${result.snippet.title}</h2>
   <a href="https://www.youtube.com/watch?v=${result.id.videoId}">
-  <img src="${result.snippet.thumbnails.medium.url}" width="${result.snippet.thumbnails.medium.width}" height="${result.snippet.thumbnails.medium.height}"/>
+  <h2>${result.snippet.title}</h2>
+  <img src="${result.snippet.thumbnails.medium.url}" title="${result.snippet.title}" alt="${result.id.description}" width="${result.snippet.thumbnails.medium.width}" height="${result.snippet.thumbnails.medium.height}"/>
   </a>
   <div>
     <a href="https://www.youtube.com/channel/${result.snippet.channelId}">Go to Channel</a>
@@ -31,10 +31,13 @@ function renderResult(result) {
 }
 //shows navigation to previous or next page
 function renderNav() {
-  return `
-  <a href="#" id="prev">Previous</a>
-  <span>|</span>
-  <a href="#" id="next">Next</a>
+  return `        
+  <!-- Show prev and next link to navigate to prev or next page -->
+  <nav role="navigation">
+    <a href="#" id="prev">Previous</a>
+    <span>|</span>
+    <a href="#" id="next">Next</a>
+  </nav>
   `
 }
 //get previous page by retieving more data from api and calling back
@@ -73,12 +76,11 @@ function watchSubmit() {
       // clear out the input
       queryTarget.val("");
       getVidSearchFromYtAPI(query,'', displayYoutubeSearchData);
-      $('nav').html(renderNav());
-        //Start listening for when users click on prev or next link.
+      $('.js-search-form').after(renderNav());
+      //Start listening for when users click on prev or next link.
       getPrevPage(prevPgToken);
       getNextPage(nextPgToken);
   });
-
 }
 
 $(watchSubmit);
