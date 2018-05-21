@@ -10,7 +10,7 @@ let nextPgToken = '';
 function getVidSearchFromYtAPI(pgToken = '',searchKeyword, callback){
   const query = {
       part: 'snippet',
-      key: 'AIzaSyAy7-v1gak6klXSw6WBZOb99-DpQnV3ETw',
+      key: 'API-KEY-HERE',
       q: searchKeyword,
       pageToken: pgToken
       };
