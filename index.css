@@ -2,9 +2,23 @@
     box-sizing: border-box;
 }
 
-header, fieldset, nav {
+header, fieldset, nav, .pageInfo {
     border: none;
     text-align: center;
 }
 
+.pageInfo {
+    font-style: italic;
+}
 
+input:hover, #prev:hover, #next:hover {
+    background-color: lightgrey;
+}
+
+h2:hover, .channel:hover {
+    color: red;
+}
+
+img:hover {
+    border: 2px red solid;
+}
